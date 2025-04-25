@@ -4,6 +4,8 @@ public class User {
 
     private Address address;
 
+    /*
+    я так и не смог понять чего хочет ДЗ :(
     public String getAddress() {
         return "Address{" +
                 "country='" + address.getCountry() + '\'' +
@@ -12,6 +14,10 @@ public class User {
                 ", building='" + address.getBuilding() + '\'' +
                 ", apartment='" + address.getApartment() + '\'' +
                 '}';
+    }*/
+
+    public Address getAddress() {
+        return this.address;
     }
 
     public void setAddress(Address address) {
