@@ -1,4 +1,4 @@
-package icu.xiii;
+package icu.xiii.entity;
 
 public class Address {
 

@@ -1,5 +1,8 @@
 package icu.xiii;
 
+import icu.xiii.entity.Address;
+import icu.xiii.entity.User;
+
 public class Main {
 
     public static void main(String[] args) {
