@@ -11,5 +11,6 @@ public class Main {
         user.setAddress(address);
 
         System.out.println(user.getAddress());
+        System.out.println(user.getAddressString());
     }
 }

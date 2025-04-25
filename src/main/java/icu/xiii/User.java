@@ -4,9 +4,8 @@ public class User {
 
     private Address address;
 
-    /*
-    я так и не смог понять чего хочет ДЗ :(
-    public String getAddress() {
+    //я так и не смог понять чего хочет ДЗ :(, сделал два варианта
+    public String getAddressString() {
         return "Address{" +
                 "country='" + address.getCountry() + '\'' +
                 ", city='" + address.getCity() + '\'' +
@@ -14,7 +13,7 @@ public class User {
                 ", building='" + address.getBuilding() + '\'' +
                 ", apartment='" + address.getApartment() + '\'' +
                 '}';
-    }*/
+    }
 
     public Address getAddress() {
         return this.address;
